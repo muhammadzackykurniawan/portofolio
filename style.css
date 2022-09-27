@@ -1,0 +1,69 @@
+.penutup {
+    background-color: #e2a448a6;
+
+}
+
+.btn-white {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0 !important;
+}
+
+.btn-warning {
+    color: white !important;
+    border-radius: 100px !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0 !important;
+
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0 !important;
+    border: 0px !important;
+}
+
+.slide {
+    background-color: white;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex
+}
+
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%)
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%)
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0)
+}
